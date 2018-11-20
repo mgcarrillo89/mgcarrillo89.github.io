@@ -301,8 +301,12 @@ p {
 
 
 .container-portfolio {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+  z-index: 5;
 }
 
 #first {
