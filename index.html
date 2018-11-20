@@ -2,7 +2,308 @@
 <head>
   
   <link href="<link       href="https://fonts.googleapis.com/css?family=Lato:100i,300,400" rel="stylesheet">
-                                                                                                     
+  <style>
+
+/*Header Style Begins*/
+
+.header {
+ overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 80px;
+ position: fixed;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#website-title {
+  font-family: "Lato", sans-serif;
+  line-height: 26px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right:5px;
+  font-size: 28px;
+  display: inline-block;
+  border-width: 0px;
+  float: left;
+}
+
+#job-description {
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 7px;
+  display: inline-block;
+  float: left;
+}
+ul { list-style-type: none;}
+#logo {
+  width: 40px;
+  padding: 15px;
+}
+#nav-list {
+  display: inline-block;
+  color: #000;
+  padding-right: 20px;
+  float: right;
+}
+
+.nav-options {
+  font-family: "Lato", sans-serif;
+  float: left;
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/*Header Style Ends*/
+.main-content {
+    background-image: url(https://i.imgur.com/m64kdkA.jpg);
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Profile Pic Style Begins*/
+#profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+ 
+}
+#portrait-box {
+  width: 200px;
+  display: block;
+  margin: auto;
+padding: 20px;
+}
+
+/*Profile Pic Style Ends*/
+
+/*Large Quote Style Begins*/
+
+#descartes-quote {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 65px;
+  font-style: italic;
+  display: block;
+  width: 35%;
+  text-align: center;
+  margin: auto;
+}
+
+#descartes-attribution {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 100px;
+  display: block;
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+/*Large Quote Style Ends*/
+#quote-spacer {
+  display: block;
+  height: 400px;
+}
+/*"About Me" Section Begins*/
+.about-me {
+  width: 100%;
+  text-align: center;
+}
+
+#about-me-title {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 45px;
+  padding: 30px 200px;
+  width: 300px;
+  display:inline-block;
+}
+
+#intro-bio {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  padding-top: 25px;
+  padding-bottom: 250px;
+}
+
+#about-spacer {
+  display: block;
+  height: 400px;
+}
+
+.portfolio {
+    width: 100%;
+  text-align: center;
+}
+
+#portfolio-title {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 20px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  
+}
+
+#portfolio-spacer {
+  display: block;
+  height: 150px;
+  width: 100%;
+}
+.project-one {
+  padding: 100px;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 400px;
+	height: auto;
+  margin: auto;
+  
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  font-family: "Lato", sans-serif;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 400px;
+	height: 50px;
+	background: #fff;
+	color: #000;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 0.75;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+#footer-spacer {
+  display: block;
+  height: 400px;
+}
+.social-icons {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+#insta-icon {
+  width: 50px;
+  margin: auto;
+  padding: 8px;
+}
+
+#pinterest-icon {
+   width: 50px;
+  margin: auto;
+  padding: 8px;
+}
+
+
+#gray-grad {
+  background-image: linear-gradient(to bottom left, #DCDCDC, #ffffff);
+}
+
+#quote-image {
+  display: block;
+  margin: auto;
+}
+
+#menu {
+  font-size= 22px;
+  padding: 0px 10px;
+}
+
+.menu-item {
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  border-width: 2px;
+  background-color:  #ededed;
+  border-color: white;
+  border-style: solid;
+  list-style-type: none;
+  text-decoration: none;
+}
+.dropdown {
+    position: fixed;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+  color: #000;
+    min-width: 140px;
+  font-family: "Lato", sans-serif;
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>                                                                                                   
 </head>
 
 <body>
