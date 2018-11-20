@@ -251,13 +251,18 @@ height: 100px;
 	z-index: 9;
 }
 
-.container {
-   display: flex;
-  justify-content: space-evenly;
-  width: 70%;
+.organize {
+  display: block;
+  width: 75%;
   margin: auto;
-  padding: 40px;
-	z-index: 5;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  z-index: 5;
 }
 
 #one {
@@ -293,11 +298,6 @@ p {
 }
 
 
-.organize {
-  display: block;
-  width: 100%;
-  margin: auto;
-}
 
 
 /*.container-portfolio {
