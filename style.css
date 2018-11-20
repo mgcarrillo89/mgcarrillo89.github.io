@@ -300,14 +300,14 @@ p {
 }
 
 
-.container-portfolio {
+/*.container-portfolio {
   display: flex;
   justify-content: space-evenly;
   width: 70%;
   padding: 40px;
 	margin: auto;
   z-index: 5;
-}
+}*/
 
 #first {
   background-color: red;
