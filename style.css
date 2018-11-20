@@ -32,7 +32,7 @@ a {
 	}
 
 	.nav-options {
-	  font-family: "Montserrat", sans-serif;
+	  font-family: "Open Sans", sans-serif;
 	  float: left;
 	  text-align: center;
 	  padding: 10px 25px;
@@ -86,7 +86,7 @@ height: 100px;
 }
 
 #intro-bio {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 40px;
