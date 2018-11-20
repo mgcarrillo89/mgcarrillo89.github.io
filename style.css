@@ -254,7 +254,10 @@ height: 100px;
     display: block;
 	z-index: 9;
 }
-            
+ #organize {
+	display: block; 
+}
+
 .container {
    display: flex;
   justify-content: space-evenly;
