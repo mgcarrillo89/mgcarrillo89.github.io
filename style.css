@@ -42,6 +42,11 @@ a {
 /*Header Style Ends*/
 
 /*Profile Pic Style Begins*/
+#intro-image {
+	display: block;
+	margin: auto;
+}
+
 
 	#profile-pic {
 	  width: 150px;
