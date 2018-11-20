@@ -261,6 +261,7 @@ height: 100px;
   width: 70%;
   margin: auto;
   padding: 40px;
+	z-index: 5;
 }
 
 #one {
