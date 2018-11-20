@@ -306,6 +306,7 @@ p {
 .container-portfolio {
     display: flex;
     justify-content: space-between;
+	width: 75%;
 }
 
 #first {
