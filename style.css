@@ -296,7 +296,7 @@ p {
 }
 
 
-#organize {
+.organize {
   display: block;
   width: 75%;
   margin: auto;
