@@ -120,7 +120,7 @@ height: 100px;
 .project-one {
   padding: 100px;
 }
-
+/*
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
@@ -176,7 +176,7 @@ height: 100px;
 }
 .hvrbox .hvrbox-text_mobile {
 	font-size: 15px;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgb(179, 179, 179); 
 	border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
 	padding-top: 2px;
@@ -185,7 +185,7 @@ height: 100px;
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
 }
-
+*/
 #footer-spacer {
   display: block;
   height: 400px;
