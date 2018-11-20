@@ -13,26 +13,6 @@ a {
 	}
 /*Header Style Begins*/
 
-	.header {
-	  overflow: hidden;
-	  top: 0;
-	  width: 100%;
-	  height: 80px;
-	  position: fixed;
-	}
-
-	#website-title {
-	  font-family: "Lato", sans-serif;
-	  line-height: 26px;
-	  padding-top: 7px;
-	  padding-bottom: 0px;
-	  padding-left: 30px;
-	  padding-right:5px;
-	  font-size: 28px;
-	  display: inline-block;
-	  border-width: 0px;
-	  float: left;
-	}
 			     
 	ul { 
 	  list-style-type: none;
