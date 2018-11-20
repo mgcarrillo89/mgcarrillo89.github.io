@@ -294,3 +294,42 @@ p {
   opacity: .5;
   
 }
+
+
+#organize {
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+
+
+.container-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first {
+  background-color: red;
+  width: 400px;
+  height: 300px;
+}
+
+#second {
+  background-color: blue;
+  width: 400px;
+  height: 300px;
+}
+
+#third {
+  background-color: green;
+  width: 400px;
+  height: 300px;
+}
+
+.port-pic {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
