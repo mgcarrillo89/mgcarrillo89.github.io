@@ -310,19 +310,19 @@ p {
 
 #first {
   background-color: red;
-  width: 300px;
+  width: 25%;
   height: 225px;
 }
 
 #second {
   background-color: blue;
-  width: 300px;
+  width: 25%;
   height: 225px;
 }
 
 #third {
   background-color: green;
-  width: 300px;
+  width: 25%;
   height: 225px;
 }
 
