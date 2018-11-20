@@ -78,6 +78,7 @@ height: 100px;
 
 #about-me-title {
   font-family: "Anton", sans-serif;
+	letter-spacing: 3px;
   text-align: center;
   font-size: 45px;
   padding: 30px 200px;
