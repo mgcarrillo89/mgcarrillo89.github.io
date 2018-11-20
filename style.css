@@ -1,5 +1,8 @@
 .main-body {
-	background-color: #d3d3d3;}
+	  background-image: url("https://i.imgur.com/m64kdkA.jpg");
+	background-position: fixed;
+	background-repeat: none;
+	}
 	
 a {
   	  color: black;
