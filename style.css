@@ -232,7 +232,7 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    color: #000;
+    color: #fff;
     min-width: 140px;
     font-family: "Lato", sans-serif;
     z-index: 7;
