@@ -311,20 +311,20 @@ p {
 
 #first {
   background-color: red;
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 225px;
 }
 
 #second {
   background-color: blue;
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 225px;
 }
 
 #third {
   background-color: green;
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 225px;
 }
 
 .port-pic {
