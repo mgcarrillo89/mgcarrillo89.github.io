@@ -255,3 +255,42 @@ height: 100px;
 	z-index: 9;
 }
             
+.container {
+   display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+}
+
+#one {
+  background-color: #c2cfd5;
+  width: 40%;
+  height: 600px;
+}
+
+#two {
+  background-color: #36474f;
+  width: 56%;
+  height: 600px;
+  overflow: hidden;
+}
+
+h3 {
+  font-family: "Anton";
+  font-size: 40px;
+  padding: 40px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 40px;
+}
+
+#profile {
+  width: 100%;
+  padding: 0px;
+  opacity: .5;
+  
+}
