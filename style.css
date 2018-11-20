@@ -215,11 +215,6 @@ a {
   padding: 8px;
 }
 
-
-#gray-grad {
-  background-image: linear-gradient(to bottom left, #DCDCDC, #ffffff);
-}
-
 #quote-image {
   display: block;
   margin: auto;
@@ -241,20 +236,20 @@ a {
   border-style: solid;
   list-style-type: none;
   text-decoration: none;
-  z-index: 4;
+  z-index: 8;
 }
 .dropdown {
-    position: fixed;
+    position: absolute;
     display: inline-block;
 }
 
 .dropdown-content {
     display: none;
-    position: fixed;
+    position: absolute;
     color: #000;
     min-width: 140px;
     font-family: "Lato", sans-serif;
-    z-index: 3;
+    z-index: 7;
 }
 
 .dropdown:hover .dropdown-content {
