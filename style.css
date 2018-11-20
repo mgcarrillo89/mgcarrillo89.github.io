@@ -302,7 +302,7 @@ p {
 
 .container-portfolio {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #first {
