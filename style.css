@@ -305,8 +305,8 @@ p {
   padding: 40px;
 }
 
-#profile {
-  width: 100%;
+#profile {;
+height: 100%;
   padding: 0px;
   opacity: .5;
   
