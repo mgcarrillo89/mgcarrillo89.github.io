@@ -186,7 +186,12 @@ height: 100px;
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
 }
-
+.portfolio-card {
+	background-color: #c2cfd5;
+	display: block;
+	width: 90%;
+	
+}
 #footer-spacer {
   display: block;
   height: 400px;
