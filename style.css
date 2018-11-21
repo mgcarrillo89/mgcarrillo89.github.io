@@ -1,3 +1,11 @@
+
+@media only screen and (max-width: 600px) {
+    .container {
+	    display: block;
+	    margin: auto;
+	}
+}
+
 .main-body {
 	  background-image: url("https://i.imgur.com/m64kdkA.jpg");
 	  background-attachment: fixed;
