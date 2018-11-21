@@ -110,6 +110,7 @@ height: 100px;
   width: 300px;
   display: block;
   margin: auto;
+	opacity: 1;
   
 }
 
@@ -265,6 +266,7 @@ height: 100px;
   display: block;
   width: 75%;
   margin: auto;
+	opacity: 1;
 }
 
 
