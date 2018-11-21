@@ -99,6 +99,7 @@ height: 100px;
     width: 100%;
   text-align: center;
 	display: block;
+	opacity: 1;
 }
 
 #portfolio-title {
